@@ -16,7 +16,7 @@ const Hero = () => {
       {/* Contenido */}
       <div className="relative mx-auto flex h-full max-w-6xl flex-col items-center justify-center px-6 text-center">
         {/* Título (con subrayado) */}
-        <h1 className="text-white font-extrabold leading-[1.05] tracking-tight text-4xl sm:text-5xl md:text-6xl">
+        <h1 className="text-white font-extrabold leading-[1.05] tracking-tight text-xl md:text-6xl">
           <span className="relative inline-block">
             <span className="relative z-10">Expertos en Movimiento</span>
           </span>
@@ -35,13 +35,13 @@ const Hero = () => {
         {/* Botones */}
         <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:gap-6">
           <a
-            href="#"
+            href="#services"
             className="inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3
                        font-semibold text-white shadow-sm
                        bg-[#f08a00] hover:bg-[#d97c00] transition"
           >
-            <MessageSquareText className="h-5 w-5" />
-            Solicitar Cotización por WhatsApp
+            {/* <MessageSquareText className="h-5 w-5" /> */}
+            Ver servicios
           </a>
 
           <a
