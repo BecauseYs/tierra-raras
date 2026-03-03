@@ -40,7 +40,7 @@ const Navbar = () => {
           ))}
           {/* CTA  */}
           <a
-            href="#contacto"
+            href="#contact"
             className="bg-[#f08a00] px-4 w-full py-2 text-sm rounded-md border border-[#f08a00] text-white hover:bg-[#f08a00]/80 hover:border-white hover:text-gray-50 text-center uppercase font-semibold transition"
             onClick={close}
           >

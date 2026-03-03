@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tierrararas.com/sitemap.xml
+Sitemap: https://tierrararas.cl/sitemap.xml
