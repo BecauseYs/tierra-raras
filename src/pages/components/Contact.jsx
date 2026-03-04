@@ -1,7 +1,10 @@
 import { MessageSquareText } from "lucide-react";
 
+import { social } from '../../data/social';
 
 const CTA = ()=> {
+    const whatsappBusinessLink = `https://wa.me/${social.whatsApp}`;
+    
     return(
     <section id="contact" className="w-full bg-black/90 py-20">
         <div className="mx-auto max-w-7xl px-6 text-center">
@@ -19,7 +22,8 @@ const CTA = ()=> {
                             hover:bg-[#d97706] transition rounded-lg">
                 <MessageSquareText className="h-5 w-5" />
                 <a
-                    href="#"
+                    href={whatsappBusinessLink}
+                    target="_blank"
                     className=""
                 >
                     Mensaje en WhatsApp

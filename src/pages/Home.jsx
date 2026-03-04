@@ -7,6 +7,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import CTA from "./components/Contact";
 import Benefits from "./components/Benefits";
+import ContactWsp from "../components/ButtonWsp";
 
 const Home = () => {
     return(
@@ -18,7 +19,8 @@ const Home = () => {
             <Benefits/>
             <Projects/>
             <CTA />
-
+            
+            <ContactWsp/>
             <Footer/>
         </Layout>
     )

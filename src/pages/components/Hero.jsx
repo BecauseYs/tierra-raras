@@ -1,6 +1,9 @@
 import { MessageCircle, MessageSquareText } from "lucide-react";
+import { social } from '../../data/social';
 
 const Hero = () => {
+    const whatsappBusinessLink = `https://wa.me/${social.whatsApp}`;
+
     return(
   <section className="relative isolate h-[520px] w-full overflow-hidden">
       {/* Fondo */}
@@ -45,7 +48,8 @@ const Hero = () => {
           </a>
 
           <a
-            href="#"
+            href={whatsappBusinessLink}
+            target="_blank"
             className="inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3
                        font-semibold text-white
                        border border-white/80 hover:border-white
