@@ -15,16 +15,16 @@ const Navbar = () => {
   const close = () => setOpen(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-gray-50 backdrop-blur ">
-      <div className="flex items-center justify-between mx-auto max-w-6xl px-6 py-4 w-full">
+    <header className="sticky top-0 z-50 bg-white backdrop-blur ">
+      <div className="flex items-center justify-between mx-auto max-w-6xl px-6 py-2 w-full">
         {/* Logo */}
         <a href="#" className="font-semibold tracking-tight text-black uppercase z-99" onClick={close}>
-          {/* <img
-            src="/images/logo/EfeFilmsblanco.png"
-            alt="EFE Films Logo"
-            className="h-12 w-auto"
-          /> */}
-          Tierra Raras
+          <img
+            src="/image/logo/logo-white.png"
+            alt="Tierra raras Logo"
+            className="w-full h-28"
+          />
+          {/* Tierra Raras */}
         </a>
 
         {/* Menú desktop */}
