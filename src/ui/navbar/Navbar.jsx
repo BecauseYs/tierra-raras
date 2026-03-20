@@ -22,7 +22,7 @@ const Navbar = () => {
           <img
             src="/image/logo/logo-white.png"
             alt="Tierra raras Logo"
-            className="w-full h-28"
+            className="w-full h-20 lg:h-28"
           />
           {/* Tierra Raras */}
         </a>
@@ -95,7 +95,7 @@ const Navbar = () => {
       {/* Panel */}
       <div
         className={[
-          "md:hidden fixed top-[72px] h-[calc(100vh-72px)] left-0 right-0 z-50",
+          "md:hidden fixed top-[95px] h-[calc(100vh-72px)] left-0 right-0 z-50",
           "bg-[#f08a00] border-t border-white/10",
           "transition-all duration-300",
           open ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-3 pointer-events-none",
